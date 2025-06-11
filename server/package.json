@@ -1,18 +1,15 @@
 {
-  "name": "server",
+  "name": "stride",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Daily Tasklist Generator that allocates timeslots out of your day based on task importance and necessity.  Created with a MERN tech stack and also out of a personal need to manage my own workload.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "mongodb": "^6.17.0"
+    "express": "^4.21.2"
   }
 }
